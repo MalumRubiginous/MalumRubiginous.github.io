@@ -1,0 +1,44 @@
+{
+  "name": "profit",
+  "version": "0.0.0",
+  "description": "A profit page builds by react and redux observable.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --inline --history-api-fallback",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalumRubiginous/MalumRubiginous.github.io.git"
+  },
+  "author": "MalumRubiginous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalumRubiginous/MalumRubiginous.github.io/issues"
+  },
+  "homepage": "https://github.com/MalumRubiginous/MalumRubiginous.github.io#readme",
+  "dependencies": {
+    "history": "^2.1.2",
+    "prop-types": "15.6.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^3.2.0",
+    "react-router-redux": "^4.0.5",
+    "redux": "^4.0.0",
+    "redux-observable": "^1.0.0",
+    "rxjs": "^6.2.2",
+    "styled-components": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "@babel/preset-react": "^7.0.0-beta.56",
+    "@babel/register": "^7.0.0-beta.56",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "^8.0.0-beta",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
