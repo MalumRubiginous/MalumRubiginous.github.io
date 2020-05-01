@@ -19,6 +19,7 @@
   "homepage": "https://github.com/MalumRubiginous/MalumRubiginous.github.io#readme",
   "dependencies": {
     "history": "^2.1.2",
+    "polished": "^1.9.3",
     "prop-types": "15.6.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
